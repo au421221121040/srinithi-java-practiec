@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+   <servlet>
+       <servlet-name>Demo</servlet-name>
+       <servlet-class>DemoServlet</servlet-class>
+  </servlet>
+
+   <servlet-mapping>
+      <servlet-name>Demo</servlet-name>
+      <url-pattern>/test</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+       <servlet-name>Kvcet</servlet-name>
+       <servlet-class>MyServlet2</servlet-class>
+  </servlet>
+
+   <servlet-mapping>
+      <servlet-name>Kvcet</servlet-name>
+      <url-pattern>/kvcet</url-pattern>
+   </servlet-mapping>
+   
+   
+</web-app>
